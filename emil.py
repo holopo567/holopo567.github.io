@@ -35,7 +35,7 @@ def send_email(sender, password, receiver, subject, body):
 
 @app.route('/')
 def index():
-    return render_template('home.html')
+    return render_template('index.html')
 
 @app.route('/submit', methods=['POST'])
 def submit():
