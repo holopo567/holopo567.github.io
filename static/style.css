@@ -1,0 +1,45 @@
+/* style.css */
+
+/* تنسيق المربع الذي يحيط بمكان الإدخال */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; /* يمكن تعديل هذه القيمة حسب الاحتياجات */
+}
+
+/* تنسيق زر الإرسال */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* تنسيق العناصر في النموذج */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center; /* توسيط النموذج داخل .container */
+}
+
+/* تنسيق العنوان والفقرات في صفحة النجاح */
+h1, p {
+    text-align: center;
+}
+
+/* تنسيق العنصر الفردي في صفحة النجاح */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* تنسيق .container */
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 500px;
+}
